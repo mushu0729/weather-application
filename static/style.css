@@ -1,0 +1,38 @@
+
+.app {
+    text-align: center;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    width: 100%;
+}
+
+input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #00796b;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#weather-display {
+    margin-top: 20px;
+}
+
+#error-message {
+    color: red;
+    margin-top: 10px;
+}
+
